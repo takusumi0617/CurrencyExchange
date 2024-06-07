@@ -1,0 +1,160 @@
+/* nav */
+nav {
+    text-align: center;
+    background-color: #c3ff8b;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    width: 15%;
+    min-width: 90px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #333;
+}
+
+nav ul li.current a {
+    color: #F33135;
+}
+
+nav ul li a:hover {
+    color: #E7DA66;
+}
+
+h2.logout {
+    color: black;
+    background-color: #c3ff8b;
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+    margin-right: 1em;
+}
+
+a.logoutbtn{
+    margin-right: 0px;
+    color: #ffffff;
+    display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 120px;
+	margin-right: 0px;
+	padding: 0rem 4rem;
+	font-weight: bold;
+	border: 2px solid blue;
+	transition: 0.5s;
+    background: rgb(176, 176, 255);
+}
+a.logoutbtn:hover {
+	color: #ffffff;
+	background: blue;
+}
+
+/* hn */
+h1 {
+    color: #ffffff;
+    background-color: #94ca00;
+    display: inline-block;
+    margin: auto;
+    padding: 2px;
+}
+
+h2 {
+    color: #000000;
+    border-top: solid 3px #94ca00;
+    border-bottom: solid 3px #94ca00;
+    display: inline-block;
+    margin: auto;
+    padding: 2px;
+}
+
+/* div */
+.contents {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: calc(100% / 2);
+    text-align: center;
+}
+
+p.money {
+    font-size: 40px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"], input[type="datetime-local"] {
+    width: calc(50% - 20px);
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+a.btn {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 120px;
+	margin: auto;
+	padding: 0.75rem 4rem;
+	font-weight: bold;
+	border: 2px solid #94ca00;
+	color: #94ca00;
+	transition: 0.5s;
+}
+a.btn:hover {
+	color: #fff;
+	background: #94ca00;
+}
+
+button.btn,input.btn {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: auto;
+	margin: auto;
+	padding: 0.75rem 4rem;
+	font-weight: bold;
+	border: 2px solid #94ca00;
+	color: #94ca00;
+    background-color: #fff;
+	transition: 0.5s;
+}
+button.btn:hover,input.btn:hover {
+	color: #fff;
+	background-color: #94ca00;
+}
+
+/* img */
+img {
+    align-items: center;
+    border: 1px solid #111;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+td, th {
+    border: 1px solid black; /* 枠線のスタイルを指定 */
+}

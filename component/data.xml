@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<opendata>
+    <exchange>
+        <e-d>101</e-d>
+        <d-e>99</d-e>
+    </exchange>
+    <exchange_highest>
+        <e-d>10</e-d>
+        <d-e>50</d-e>
+    </exchange_highest>
+</opendata>
